@@ -1,0 +1,69 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f375f;
+    color: #161515;
+    margin: 0;
+    padding: 0;
+    background: url(../../images/nodes.gif) repeat center;
+    background-size: cover;
+}
+
+#home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+form .btn {
+    border-radius: 5px;
+}
+
+/* Post Cards */
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-danger {
+    margin-right: 10px;
+}
+
+.btn-warning {
+    color: #fff;
+}
+
+/* Utility Classes */
+.text-muted {
+    font-style: italic;
+    color: #6c757d !important;
+}
